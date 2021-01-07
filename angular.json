@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "external-js-in-angular"
+  "defaultProject": "external-js-in-angular",
+  "cli": {
+    "analytics": "bd60ae21-199c-4ba5-9b88-dee4b547ebdf"
+  }
 }
