@@ -1,1 +1,104 @@
-<p>js-validation-form works!</p>
+<div style="padding-left: 30%; padding-right: 30%; padding-top: 2%;">
+    <div style="box-sizing: border-box; border: 5px solid #F1615C; padding: 10px; border-radius: 10px;">
+        <h1 style="text-align: center; background-color: #F1615C; color: white; border-radius: 10px;">Validation Form</h1>
+        <form name="myform"  onsubmit="return validateform()">
+            <div class="form-group row">
+                <label for="inputName3" class="col-sm-2 col-form-label"><b>Name</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputName3" name="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"><b>Password</b></label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" name="password" placeholder="Password">
+                </div>
+              </div>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label"><b>Email</b></label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" name="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPhone3" class="col-sm-2 col-form-label"><b>Phone No.</b></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPhone3" name="phone" placeholder="Phone No.">
+                </div>
+              </div>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0"><b>Gender</b></legend>
+                <div class="row" style="margin-left: 15px;">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="Male" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check" style="margin-left: 10px;">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Female">
+                    <label class="form-check-label" for="gridRadios2">
+                      Female
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <div class="form-group row">
+                <label for="inputName3" class="col-sm-2 col-form-label"><b>Date of Birth</b></label>
+                <div class="col-2">
+                    <input type="text" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-2">
+                    <input type="text" class="form-control" placeholder="Month">
+                </div>
+                <div class="col-2">
+                    <input type="text" class="form-control" placeholder="Year">
+                </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-2"><b>languages Known</b></div>
+              <div class="col-sm-10">
+                  <div class="row" style="margin-left: 5px;">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                        Telugu
+                        </label>
+                    </div>
+                    <div class="form-check" style="margin-left: 5px;">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                        Hindi
+                        </label>
+                    </div>
+                    <div class="form-check" style="margin-left: 5px;">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                        Tamil
+                        </label>
+                    </div>
+                    <div class="form-check" style="margin-left: 5px;">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                        English
+                        </label>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputName3" class="col-sm-2 col-form-label"><b>Address</b></label>
+                <div class="col-sm-10">
+                    <textarea rows="4" cols="60" name="comment" form="usrform" placeholder="Enter your Address"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm" style="text-align: center;">
+                <button type="submit" style="background-color: #F1615C; color: white;" class="btn btn-primary"><b>Submit</b></button>
+              </div>
+            </div>
+        </form>
+    </div>
+</div>
