@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JsValidationFormComponent } from './js-validation-form/js-validation-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JsValidationFormComponent
   ],
   imports: [
     BrowserModule,
